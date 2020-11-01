@@ -1,0 +1,75 @@
+#main {
+  background-color: lightgray;
+}
+#header {
+  min-height: 100px;
+  background-color: pink;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  width: 98.8%;
+}
+#header-img {
+  height: 50px;
+  width: 100px;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+h1,
+h5 {
+  text-align: center;
+  color: navy;
+  margin: 0px;
+}
+.nav-link {
+  text-decoration: none;
+}
+#image {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  float: left;
+  margin-right: 50px;
+}
+#aboutme {
+  margin-left: 50px;
+}
+li {
+  float: right;
+  list-style-type: none;
+  padding: 25px 25px;
+  text-transform: uppercase;
+}
+
+section {
+  min-height: 300px;
+
+  padding: 100px 30px 30px 30px;
+  max-width: 960px;
+}
+h2 {
+  color: navy;
+  font-family: Lucida Console;
+}
+form {
+  width: 400px;
+  justify-content: space-around;
+}
+@media (max-width: 560px) {
+  #header-img {
+    width: 50px;
+  }
+}
+.orders-img {
+  float: left;
+  height: 200px;
+  width: 200px;
+  padding-right: 30px;
+  border-radius: 10px;
+}
+
+iframe {
+  border: none;
+}
